@@ -1,0 +1,150 @@
+
+
+.jumbo-area {
+  text-align: center;
+}
+
+.jumbo-area h1 {
+  font-size: 2.4rem;
+  line-height: 4.5rem;
+  margin-top: 5rem;
+}
+
+.jumbo-area p {
+  color: #141414;
+  font-size: 0.9rem;
+  font-weight: "400";
+  word-wrap: "break-word";
+}
+
+#shortening-span {
+  color: #0065fe;
+  display: inline-flex;
+  flex-direction: column;
+  height: min-content;
+}
+
+.colored-vector-img {
+scale: 0.5;
+margin-top: -1.5rem;
+}
+
+.home-shortener-function {
+  height: 3rem;
+}
+
+.vector-image-section {
+  display: flex;
+  margin: 5rem auto 0 -12rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#vector2 {
+  scale: 0.8;
+}
+
+.image-container-1 {
+  border: 0.5px solid #005AE2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  height: max-content;
+  border-radius: 24px;
+  text-align: center;
+  font-size: 0.7rem;
+  margin: -7rem;
+  z-index: 1;
+  background: rgba(254, 254, 254, 0.10);
+backdrop-filter: blur(106px);
+}
+
+.image-container-span {
+  display: flex;
+  align-items: center;
+}
+
+.image-item {
+  height: 3rem;
+  width: 3rem;
+}
+
+#line-arrow {
+  margin: 0 1rem;
+}
+
+.type-link-section {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.type-link-input {
+  width: 30%;
+  padding: 0 2rem;
+}
+
+.type-link-button {
+  margin-left: 1.5rem;
+}
+
+.overlays {
+  position: absolute;
+  z-index: -1;
+
+}
+
+@media (max-width: 768px) {
+
+  .overall-home {
+    margin-bottom: 5rem;
+  }
+
+  .overlays {
+    display: none;
+  }
+
+  .jumbo-area h1 {
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+    width: 80%;
+    margin: 5rem auto auto auto;
+  }
+
+  .jumbo-area p {
+    width: 80%;
+    margin: 1rem auto;
+    line-height: 1.5em;
+
+  }
+
+  .colored-vector-img {
+    margin-top: -0.8rem;
+  }
+
+  .vector-image-section {
+    flex-direction: column;
+    margin: unset;
+    padding-top: 10rem;
+  }
+
+  .type-link-section {
+    flex-direction: column;
+    gap: 0.5rem;
+    width: max-content;
+    margin: 2rem auto;
+  }
+
+  .type-link-input {
+    width: 15rem;
+    text-align: center;
+  }
+
+  .type-link-button {
+    width: 100%;
+    margin-left: unset;
+  }
+
+
+  
+}
